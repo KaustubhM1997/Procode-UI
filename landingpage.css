@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+
+    --primary-color: #1d4ed8;
+    --white: white;
+    --secondary-color: #9ca3af;
+    --black: black;
+    --primary-hover: #1e40af;
+    --secondary-hover: #e5e7eb;
+
+
+
+}
+
+
+
+
+body {   
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation-container {
+
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    
+}
+
+.nav-item {
+
+    margin-left: auto;
+    
+}
+
+
+.nav-list-item {
+
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.nav-list-item:hover {
+
+    color: var(--secondary-color);
+}
+
+
+.nav-header-item {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-left: 2rem;
+    
+
+}
+
+.nav-header-item:hover {
+
+    color: var(--secondary-color);
+}
+
+.heading-inverted {
+
+    color: var(--black);
+}
+
+.heading-inverted:hover {
+
+    color: var(--secondary-color);
+}
+
+.header-container {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.header-img {
+
+    width: 300px;
+    max-height: 50vh;
+}
+
+.main-text {
+
+    font-size: 1.5rem;
+    max-width: 500px;   
+    
+}
+
+.heading-inverted-again {
+
+    color: var(--primary-color);
+
+    font-weight: bold;
+}
+
+.cta-buttons {
+
+    padding: 1rem;
+    margin-top: 3rem;
+    
+    
+    
+}
+
+.primary-link {
+
+    padding: 1rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 0.4rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.secondary-link {
+
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    cursor: pointer;
+    background-color: var(--white);
+    border-radius: 0.4rem;
+    /* border: 1px solid; */
+    text-decoration: none;
+    padding: 1rem 2rem;
+    box-shadow: 5px 5px 15px #cbd5e1;
+
+
+}
+
+.primary-link:hover {
+
+    background-color: var(--primary-hover);
+}
+
+.secondary-link:hover {
+
+    background-color: var(--secondary-hover);
+}
