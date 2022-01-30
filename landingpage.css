@@ -64,6 +64,12 @@ body {
     
 }
 
+.logo-version {
+
+    font-size: small;
+    font-weight: lighter;
+}
+
 .nav-header-item:hover {
 
     color: var(--secondary-color);
@@ -93,7 +99,7 @@ body {
 
     width: 300px;
     max-height: 50vh;
-    margin-top: 2rem;
+    /* margin-top: 0.5rem; */
 }
 
 .main-text {
