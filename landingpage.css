@@ -67,7 +67,10 @@ body {
 .logo-version {
 
     font-size: small;
-    font-weight: lighter;
+    font-weight: light;
+    position: absolute;
+    left: 19rem;
+    top: 3rem;
 }
 
 .nav-header-item:hover {
@@ -99,7 +102,6 @@ body {
 
     width: 300px;
     max-height: 50vh;
-    /* margin-top: 0.5rem; */
 }
 
 .main-text {
@@ -158,3 +160,21 @@ body {
 
     background-color: var(--secondary-hover);
 }
+
+@media screen and (max-width: 768px) {
+    .main-text {
+      font-size: 1.5rem;
+    }
+
+    .nav-list-item {
+
+        width: 2rem;
+    }
+
+    .nav-header-item {
+
+        width: 5rem;
+
+
+    }
+  }
