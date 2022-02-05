@@ -28,6 +28,7 @@ body {
   padding: 1rem;
   position: relative;
   position: fixed;
+  /* z-index: 10; */
 
 }
 
