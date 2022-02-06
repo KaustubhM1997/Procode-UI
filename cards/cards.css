@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+@import url(/CSS/landingpage.css);
 
 :root {
 
@@ -70,6 +71,7 @@ body {
 
   font-size: small;
   font-weight: lighter;
+  margin-left: -0.5rem;
 }
 
 .nav-header-item:hover {
@@ -104,10 +106,11 @@ body {
 
   text-align: left;
   margin-left: 14rem;
-  margin-top: -0.5rem;
+  margin-top: 0.5rem;
   width: 900px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 0.5rem;
 
 }
 
@@ -141,7 +144,24 @@ h3 {
   left: 32rem;
   margin-top: 4rem;
 
+
 }
+
+.main-container-vertical {
+  background-color: white;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 8px 5px 5px #94a3b8;
+  position: absolute;
+  left: 35rem;
+  margin-top: 4rem;
+  height: 70vh;
+
+
+}
+
 
 .main-container-shadow {
 
@@ -186,6 +206,31 @@ img {
   margin-top: 25rem;
   margin-left: 6rem;
   width: 3rem;
+  margin-bottom: 1rem;
+
+
+}
+
+.frames-text {
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 19rem;
+  margin-left: 7.5rem;
+  width: 3rem;
+  margin-bottom: 2rem;
+
+
+}
+
+.frames-vertical {
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: -24rem;
+
+  
 
 
 }
@@ -198,6 +243,7 @@ img {
   margin-top: 25rem;
   margin-left: 12rem;
   width: 2rem;
+  margin-bottom: 1rem;
 }
 
 .shadow {
@@ -217,6 +263,29 @@ img {
   position: relative;
 }
 
+.header-text-vertical{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 22vh;
+
+
+}
+
+.badge {
+
+  color: var(--white);
+  font-weight: bold;
+  position: absolute;
+  border-radius: 20%;
+  background-color: var(--primary-color);
+  bottom: 12.5rem;
+  padding: 0.5rem 0.7rem;
+  left: 0.7rem;
+
+}
+
 .main-heading {
   font-size: 1.1rem;
   font-weight: bold;
@@ -234,6 +303,15 @@ img {
   bottom: 11rem;
 
 
+}
+
+.code-snippet {
+
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 26rem;
+  margin-bottom: 1rem;
 }
 
 .small-text {
@@ -259,6 +337,17 @@ body .main-text {
   position: relative;
 }
 
+.main-text-vertical {
+
+  margin: 2rem 0rem;
+  font-size: 0.9rem;
+  padding: 0rem 0.5rem;
+  position: relative;
+  text-align: justify;
+
+
+}
+
 .right-btn {
 
   border-radius: 50%;
@@ -269,6 +358,7 @@ body .main-text {
   position: absolute;
   bottom: 16.5rem;
   left: 20.5rem;
+  padding: 0.2rem 0.4rem;
 
 
 }
