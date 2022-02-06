@@ -16,7 +16,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   border: 1px;
-  /* background-color: #e2e8f0; */
   max-width: 100%;
   padding: 1rem 3rem;
   margin-bottom: 2rem;
@@ -28,7 +27,6 @@ body {
   padding: 1rem;
   position: relative;
   position: fixed;
-  /* z-index: 10; */
 
 }
 
@@ -49,7 +47,6 @@ body {
   left: 68rem;
   top: 1.5rem;
   font-weight: bold;
-  /* margin-right: 6rem; */
 }
 
 .nav-list-item:hover {
@@ -111,7 +108,6 @@ body {
   width: 900px;
   display: flex;
   flex-direction: column;
-  /* max-width: 900px; */
 
 }
 
@@ -173,7 +169,6 @@ img {
 
   margin-top: 25rem;
   margin-left: 6rem;
-  /* width: 1rem; */
 
 }
 
