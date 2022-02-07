@@ -1,0 +1,79 @@
+@import url(/CSS/nav.css);
+
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 19rem;
+}
+
+h3 {
+
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+
+}
+
+.avatar-heading {
+    margin-top: 1.3rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+
+    width: 90%;
+    margin: 0.5rem 0rem;
+}
+
+.avatar {
+
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.img-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+
+}
+
+.lg {
+
+    height: 9rem;
+    width: 9rem;
+}
+
+.md {
+
+    height: 7rem;
+    width: 7rem;
+}
+
+.sm {
+
+    height: 4rem;
+    width: 4rem;
+}
+
+.profile-frames {
+
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+
+.size-frames {
+
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+}
