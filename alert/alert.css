@@ -1,0 +1,145 @@
+@import url(/CSS/nav.css);
+
+:root {
+
+    --succes-alert: #22c55e;
+    --error-alert: #dc2626;
+    --warning-alert: #f97316;
+    --alert-container: #f9fafb;
+}
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 82%;
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 19rem;
+}
+
+h3 {
+
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+
+}
+
+.alert-heading {
+
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+
+}
+
+hr {
+    margin-top: 0.8rem;
+}
+
+.alert {
+
+    text-align: left;
+}
+
+.alert-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px;
+    padding: 1.5rem;
+    background-color: var(--alert-container);
+    border: none;
+    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.success,
+.primary,
+.error,
+.warning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+    border-radius: 0.2rem;
+    width: 40rem;
+}
+
+.primary {
+
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.error {
+
+    background-color: var(--error-alert);
+    color: var(--white);
+}
+
+.success {
+
+    background-color: var(--succes-alert);
+    color: var(--white);
+}
+
+.warning {
+
+    background-color: var(--warning-alert);
+    color: var(--white);
+}
+
+.dismiss {
+
+    cursor: pointer;
+}
+
+.outline-primary,
+.outline-error,
+.outline-success,
+.outline-warning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+    border-radius: 0.2rem;
+    width: 40rem;
+}
+
+.outline-primary {
+
+    color: var(--primary-color);
+    border: 1px solid;
+}
+
+.outline-error {
+
+    color: var(--error-alert);
+    border: 1px solid;
+}
+
+.outline-success {
+
+    color: var(--succes-alert);
+    border: 1px solid;
+}
+
+.outline-warning {
+
+    color: var(--warning-alert);
+    border: 1px solid;
+}
+
+.iframe-container {
+
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
