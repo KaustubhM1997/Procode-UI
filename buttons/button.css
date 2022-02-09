@@ -1,0 +1,167 @@
+@import url(/CSS/nav.css);
+
+:root {
+
+    --success-color: #22c55e;
+    --success-hover: #15803d;
+    --danger-color: #dc2626;
+    --danger-hover: #991b1b;
+    --warning-color: #f97316;
+    --warning-hover: #c2410c;
+    --primary-hover: #1e40af;
+    --secondary-hover: #374151;
+    --link-color: #0ea5e9;
+    --link-hover: #0284c7;
+}
+
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 82%;
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 19rem;
+}
+
+h3 {
+
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+
+}
+
+
+.button-heading {
+
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+
+}
+
+.btn {
+
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.2rem;
+    border: none;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+hr {
+    margin-top: 0.8rem;
+}
+
+.btn-primary,
+.btn-icons,
+.btn-link,
+.btn-float {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    border: 1px;
+    padding: 1.5rem;
+    background-color: var(--alert-container);
+    border: none;
+    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+
+
+}
+
+.primary,
+.like {
+
+    background-color: var(--primary-color);
+}
+
+.primary:hover,
+.like:hover,
+.float-btn:hover {
+
+    background-color: var(--primary-hover);
+}
+
+.secondary,
+.send {
+
+    background-color: var(--secondary-color);
+}
+
+.secondary:hover,
+.send:hover {
+
+    background-color: var(--secondary-hover);
+}
+
+.success {
+
+    background-color: var(--success-color);
+}
+
+.success:hover {
+
+    background-color: var(--success-hover);
+}
+
+.danger,
+.delete {
+
+    background-color: var(--danger-color);
+}
+
+.danger:hover,
+.delete:hover {
+
+    background-color: var(--danger-hover);
+
+}
+
+.warning,
+.wish {
+
+    background-color: var(--warning-color);
+}
+
+.warning:hover,
+.wish:hover {
+
+    background-color: var(--warning-hover);
+}
+
+.link {
+
+    background-color: var(--link-color);
+    box-shadow: 5px 2.5px 6px var(--secondary-color);
+}
+
+.link:hover {
+
+    background-color: var(--link-hover);
+}
+
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+.float-btn {
+
+    border-radius: 50%;
+    border: 1px;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    background-color: var(--main-color);
+    box-shadow: rgba(128, 128, 128, 0.35) 0px 5px 15px;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
