@@ -149,7 +149,6 @@ hr {
     background-color: var(--link-hover);
 }
 
-
 .icon {
     margin-right: 0.5rem;
 }
@@ -164,4 +163,9 @@ hr {
     box-shadow: rgba(128, 128, 128, 0.35) 0px 5px 15px;
     background-color: var(--primary-color);
     color: var(--white);
+}
+
+.primary-frames {
+
+    text-align: center;
 }
