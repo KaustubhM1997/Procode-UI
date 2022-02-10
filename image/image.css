@@ -1,0 +1,70 @@
+@import url(/CSS/nav.css);
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 83%;
+    margin-top: 2rem;
+    position: relative;
+    padding-left: 19rem;
+}
+
+h3 {
+
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+
+}
+
+.image-heading {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin: 0.5rem 0rem;
+}
+
+.img-container {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    border: 1px;
+    padding: 1.5rem;
+    background-color: var(--alert-container);
+    border: none;
+    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.round {
+
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+
+}
+
+
+.responsive {
+
+    height: auto;
+    width: 100%;
+
+}
+
+.image-frames {
+
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
