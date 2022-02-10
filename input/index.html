@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+
+<body>
+
+    <nav class="navigation-container">
+        <div class="nav-header"> <a class="nav-header-item" href="/">Pro<span class="heading-inverted">CODE<span
+                        class="logo-version"> v1.0</span></a>
+        </div>
+        <div class="nav-item"> <a class="nav-list-item" href="/">DOCUMENTATION</a> </div>
+    </nav>
+
+    <div class="main-container">
+
+        <header>
+            <h3>Inputs</h3>
+            <p>Inputs are necessary for user interaction with the website. Inputs are used to take information from the
+                user, and then save the data to the server.</p>
+        </header>
+        <hr>
+
+        <section class="section-text">
+            <p class="input-heading">Text and Number Input</p>
+            <p>These are used when you want the user's name or the OTP.</p>
+            <div class="txt-container">
+                <input placeholder="Please enter your name here" class="txt-input" type="text" autofocus>
+                <input placeholder="Please enter your OTP here" class="txt-input" type="number">
+            </div>
+            <div class="txt-frames">
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Please%2520enter%2520your%2520name%2520here%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522txt-input%2522%2520type%253D%2522text%2522%2520autofocus%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Please%2520enter%2520your%2520OTP%2520here%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522txt-input%2522%2520type%253D%2522number%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 698px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+
+            </div>
+        </section>
+        <hr>
+
+        <section class="section-label">
+            <p class="input-heading">Label Inputs</p>
+            <p>Label Input has a label present at the top of the input field. They can be customized to show error
+                error-message, and change color accordingly.</p>
+            <div class="txt-container">
+                <small>Username *</small>
+                <input class="label-input" type="text">
+                <small class="pass-txt">Password *</small>
+                <input class="error-input" type="text">
+                <small class="pass-msg">Incorrect Password. Please try again.</small>
+            </div>
+            <div class="txt-frames">
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522txt-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%253EUsername%2520*%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522label-input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522pass-txt%2522%253EPassword%2520*%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522error-input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522pass-msg%2522%253EIncorrect%2520Password.%2520Please%2520try%2520again.%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 867px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+
+            </div>
+        </section>
+        <hr>
+
+
+        <section class="section-radio">
+            <p class="input-heading">Radio Inputs and Checkboxes</p>
+            <p>Radio buttons and checkboxes allow the user to select one option from a set of choices.</p>
+            <div class="radio-container">
+                <input class="radio-input" type="radio" name="radio">Radio Input
+                <input class="check-input" type="checkbox" name="radio">Checkbox
+            </div>
+            <div class="txt-frames">
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522radio-container%2522%253E%250A%2520%2520%253Cinput%2520class%253D%2522radio-input%2522%2520type%253D%2522radio%2522%2520name%253D%2522radio%2522%253ERadio%2520Input%250A%2520%2520%253Cinput%2520class%253D%2522check-input%2522%2520type%253D%2522checkbox%2522%2520name%253D%2522radio%2522%253ECheckbox%250A%2520%2520%253C%252Fdiv%253E"
+                    style="width: 707px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
