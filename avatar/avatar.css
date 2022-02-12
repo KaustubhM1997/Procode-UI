@@ -1,4 +1,5 @@
 @import url(/CSS/nav.css);
+@import url(/CSS/layout.css);
 
 
 .main-container {
@@ -8,10 +9,10 @@
     max-width: 100%;
     margin-top: 2rem;
     position: relative;
-    padding-left: 19rem;
+    padding-left: 4rem;
 }
 
-h3 {
+.h3 {
 
     margin-bottom: 0.5rem;
     font-size: 1.8rem;
@@ -25,7 +26,7 @@ h3 {
     margin-bottom: 0.5rem;
 }
 
-hr {
+.hr {
 
     width: 90%;
     margin: 0.5rem 0rem;

@@ -16,49 +16,114 @@
         <div class="nav-header"> <a class="nav-header-item" href="/">Pro<span class="heading-inverted">CODE<span
                         class="logo-version"> v1.0</span></a>
         </div>
-        <div class="nav-item"> <a class="nav-list-item" href="/">DOCUMENTATION</a> </div>
+        <div class="nav-item"> <a class="nav-list-item" href="/alert/alert.html">DOCUMENTATION</a> </div>
     </nav>
 
-    <div class="main-container">
+    <div class="container">
+        <aside class="drawer">
+            <div class="drawer-subheader">Get Started</div>
+            <ul>
+                <li class="drawer-item">
+                    <a href="/">Introduction</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/text-utilities/text-utils.html">Typography</a>
+                </li>
+                <li class="drawer-item"><a href="/">Colors</a></li>
 
-        <header>
-            <h3>Badge</h3>
-            <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component. It can
-                be used to display numbers and status depending on where they are used.</p>
-        </header>
-        <hr>
-    </div>
+                <li class="drawer-item"><a href="/">Contribution</a></li>
+            </ul>
+            <hr class="divider" />
+            <div class="drawer-subheader">Components</div>
+            <ul>
+                <li class="drawer-item">
+                    <a href="/alert/alert.html">Alert</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="drawer-item drawer-item-active">
+                    <a href="/badges/badge.html">Badge</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/buttons/buttons.html">Button</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/cards/cards.html">Card</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/image/image.html">Image</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/input/input.html">Input</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/lists/lists.html">Lists</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/rating/rating.html">Rating</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/">Modal</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/">Navigation</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/">Grid</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/">Slider</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/">Toast (Snackbar)</a>
+                </li>
+            </ul>
+        </aside>
 
-    <section class="icon-badges">
+        <div class="main-container">
 
-        <p class="badge-heading">Badge on Icons</p>
+            <header>
+                <h3 class="h3">Badge</h3>
+                <p>Badges are small circles, positioned either at top-right or bottom-right of the parent component. It
+                    can
+                    be used to display numbers and status depending on where they are used.</p>
+            </header>
+            <hr class="hr">
+       
 
-        <div class="icons-container">
+         <section class="icon-badges">
 
-            <div class="badge-element">
-                <i class="fa-solid fa-cart-arrow-down icon"></i> <span class="notif-cart">7</span>
+            <p class="badge-heading">Badge on Icons</p>
+
+            <div class="badge-container">
+
+                <div class="badge-element">
+                    <i class="fa-solid fa-cart-arrow-down icon"></i> <span class="notif-cart">7</span>
+                </div>
+                <div class="badge-element">
+                    <i class="fa-brands fa-whatsapp icon"></i> <span class="notif-whatsapp">12</span>
+                </div>
+                <div class="badge-element">
+                    <i class="fa-solid fa-envelope icon"></i> <span class="notif-mail">28</span>
+                </div>
+
+
+
             </div>
-            <div class="badge-element">
-                <i class="fa-brands fa-whatsapp icon"></i> <span class="notif-whatsapp">12</span>
+
+            <div class="iframe-container">
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-element%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-cart-arrow-down%2520icon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notif-cart%2522%253E7%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-element%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-brands%2520fa-whatsapp%2520icon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notif-whatsapp%2522%253E12%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-element%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-envelope%2520icon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notif-mail%2522%253E28%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 698px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
             </div>
-            <div class="badge-element">
-                <i class="fa-solid fa-envelope icon"></i> <span class="notif-mail">28</span>
-            </div>
 
+        </section>
 
-
-        </div>
-
-        <div class="iframe-container">
-
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-element%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-cart-arrow-down%2520icon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notif-cart%2522%253E7%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-element%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-brands%2520fa-whatsapp%2520icon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notif-whatsapp%2522%253E12%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-element%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-envelope%2520icon%2522%253E%253C%252Fi%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522notif-mail%2522%253E28%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 698px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
-
-        <hr>
+        <hr class="hr">
 
         <section class="avatar-badges">
             <p class="badge-heading">Badge on Avatars</p>
@@ -83,12 +148,9 @@
                 </iframe>
             </div>
 
+        </section>
 
-        
-
-
-
-    </section>
+    </div>
 
 
 </body>

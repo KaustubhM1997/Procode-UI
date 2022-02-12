@@ -1,4 +1,5 @@
 @import url(/CSS/nav.css);
+@import url(/CSS/layout.css);
 
 :root {
 
@@ -9,7 +10,6 @@
     --warning-color: #f97316;
     --warning-hover: #c2410c;
     --primary-hover: #1e40af;
-    --secondary-hover: #374151;
     --link-color: #0ea5e9;
     --link-hover: #0284c7;
 }
@@ -19,13 +19,13 @@
 
     display: flex;
     flex-direction: column;
-    max-width: 82%;
+    max-width: 75%;
     margin-top: 2rem;
     position: relative;
-    padding-left: 19rem;
+    padding-left: 5rem;
 }
 
-h3 {
+.h3 {
 
     margin-bottom: 0.5rem;
     font-size: 1.8rem;
@@ -53,8 +53,9 @@ h3 {
     cursor: pointer;
 }
 
-hr {
+.hr {
     margin-top: 0.8rem;
+    
 }
 
 .btn-primary,
@@ -74,6 +75,7 @@ hr {
     margin-bottom: 1rem;
     border-radius: 0.5rem;
     margin-top: 1rem;
+    width: 50rem;
 
 
 }
@@ -167,5 +169,5 @@ hr {
 
 .primary-frames {
 
-    text-align: center;
+    text-align: left;
 }
