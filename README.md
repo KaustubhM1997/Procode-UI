@@ -1,5 +1,8 @@
 # ProCODE
-A Component Library to build responsive websites using HTML and CSS
+A Component Library to build responsive websites using HTML and CSS.
+
+![image](https://user-images.githubusercontent.com/46368989/153725482-2a5aeec1-81e6-4ebc-ab96-b69c96edb54c.png)
+
 
 ## Installation
 To use ProCODE in your project, copy-paste the stylesheet<link> into your <head> before all other stylesheets to load our CSS.
