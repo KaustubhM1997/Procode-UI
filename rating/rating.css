@@ -1,14 +1,15 @@
 @import url(/CSS/nav.css);
+@import url(/CSS/layout.css);
 
 
 .main-container {
 
     display: flex;
     flex-direction: column;
-    max-width: 83%;
+    max-width: 100%;
     margin-top: 2rem;
     position: relative;
-    padding-left: 19rem;
+    padding-left: 8rem;
 }
 
 .h3 {
