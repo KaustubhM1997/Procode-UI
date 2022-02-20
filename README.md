@@ -21,7 +21,9 @@ To use ProCODE in your project, copy-paste the stylesheet<link> into your <head>
 * [Input](https://proocode.netlify.app/input/input.html)
 * [Lists](https://proocode.netlify.app/lists/lists.html)
 * [Rating](https://proocode.netlify.app/rating/rating.html)
+  
+  ## Tech Stack
+  HTML and CSS
 
  ## Author
-  
  [Kaustubh Manglurkar](https://kaustubh-m.netlify.app/)
