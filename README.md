@@ -1,13 +1,5 @@
 # ProCODE
 A Component Library to build responsive websites using HTML and CSS.
-
-![image](https://user-images.githubusercontent.com/46368989/153725482-2a5aeec1-81e6-4ebc-ab96-b69c96edb54c.png)
-
-
-## Installation
-To use ProCODE in your project, copy-paste the stylesheet<link> into your <head> before all other stylesheets to load our CSS.
-
-<link rel="stylesheet" href="https://iceberg-ui.netlify.app/styles.css">
   
 ## Components defined in the library
   
@@ -21,6 +13,10 @@ To use ProCODE in your project, copy-paste the stylesheet<link> into your <head>
 * [Input](https://proocode.netlify.app/input/input.html)
 * [Lists](https://proocode.netlify.app/lists/lists.html)
 * [Rating](https://proocode.netlify.app/rating/rating.html)
+
+## Demo
+![Alt Text](https://media.giphy.com/media/Nmf7je5cztENQNCRgh/giphy.gif)
+
 
 ## Author
  [Kaustubh Manglurkar](https://kaustubh-m.netlify.app/)
