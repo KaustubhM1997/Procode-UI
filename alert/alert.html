@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alert Components</title>
     <link rel="stylesheet" href="alert.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon-cl.png">
+
 </head>
 
 <body>
@@ -15,7 +17,7 @@
         <div class="nav-header"> <a class="nav-header-item" href="/">Pro<span class="heading-inverted">CODE<span
                         class="logo-version"> v1.0</span></a>
         </div>
-        <div class="nav-item"> <a class="nav-list-item" href="/alert/alert.html">DOCUMENTATION</a> </div>
+        <div class="nav-item"> <a class="nav-list-item" href="/text-utilities/text-utils.html">DOCUMENTATION</a> </div>
     </nav>
 
     <div class="container">
@@ -80,81 +82,82 @@
             </ul>
         </aside>
 
-    <div class="main-container">
+        <div class="main-container">
 
-        <header>
-            <h3 class="h3">Alert</h3>
-            <p>An alert is used to alarm an user with an important messsage in a concise manner. These messages do not
-                interrupt with the user's tasks.</p>
-        </header>
-         <hr class="hr">
+            <header>
+                <h3 class="h3">Alert</h3>
+                <p>An alert is used to alarm an user with an important messsage in a concise manner. These messages do
+                    not
+                    interrupt with the user's tasks.</p>
+            </header>
+            <hr class="hr">
 
-        <section class="section simple-alert">
-            <p class="alert-heading">Simple Alert</p>
+            <section class="section simple-alert">
+                <p class="alert-heading">Simple Alert</p>
 
-            <div class="alert-container">
+                <div class="alert-container">
 
-                <div class="alert primary">
-                    <strong>Primary!</strong> This is a Primary Alert - Check it now! <span class="dismiss">X</span>
-                </div>
-                <div class="alert error">
-                    <strong>Error!</strong> This is an Error Alert - Check it now! <span class="dismiss">X</span>
-                </div>
-                <div class="alert success">
-                    <strong>Success!</strong> This is a Success Alert - Check it now! <span class="dismiss">X</span>
-                </div>
-                <div class="alert warning">
-                    <strong>Warning!</strong> This is a Warning Alert - Check it now! <span class="dismiss">X</span>
-                </div>
+                    <div class="alert primary">
+                        <strong>Primary!</strong> This is a Primary Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
+                    <div class="alert error">
+                        <strong>Error!</strong> This is an Error Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
+                    <div class="alert success">
+                        <strong>Success!</strong> This is a Success Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
+                    <div class="alert warning">
+                        <strong>Warning!</strong> This is a Warning Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
 
-            </div>
-
-            <div class="iframe-container">
-
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 883px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-        </section>
-
-        <hr class="hr">
-        <section class="section outline-alert">
-            <p class="alert-heading">Outlined Alert</p>
-
-            <div class="alert-container">
-                <div class="alert outline-primary">
-                    <strong>Primary!</strong> This is a Primary Alert - Check it now! <span class="dismiss">X</span>
                 </div>
 
-                <div class="alert outline-error">
-                    <strong>Error!</strong> This is an Error Alert - Check it now! <span class="dismiss">X</span>
+                <div class="iframe-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 883px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
 
-                <div class="alert outline-success">
-                    <strong>Success!</strong> This is a Success Alert - Check it now! <span class="dismiss">X</span>
+            </section>
+
+            <hr class="hr">
+            <section class="section outline-alert">
+                <p class="alert-heading">Outlined Alert</p>
+
+                <div class="alert-container">
+                    <div class="alert outline-primary">
+                        <strong>Primary!</strong> This is a Primary Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
+
+                    <div class="alert outline-error">
+                        <strong>Error!</strong> This is an Error Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
+
+                    <div class="alert outline-success">
+                        <strong>Success!</strong> This is a Success Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
+
+                    <div class="alert outline-warning">
+                        <strong>Warning!</strong> This is a Warning Alert - Check it now! <span class="dismiss">X</span>
+                    </div>
                 </div>
 
-                <div class="alert outline-warning">
-                    <strong>Warning!</strong> This is a Warning Alert - Check it now! <span class="dismiss">X</span>
+                <div class="iframe-container">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 892px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
-            </div>
 
-            <div class="iframe-container">
+            </section>
 
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522dismiss%2522%253EX%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 892px; height: 577px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-
-        </section>
-
-    </div>
-    <div></div>
+        </div>
+        <div></div>
 </body>
 
 </html>

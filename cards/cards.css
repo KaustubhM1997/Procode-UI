@@ -2,6 +2,7 @@
 @import url(/CSS/landingpage.css);
 @import url(/CSS/layout.css);
 @import url(/CSS/nav.css);
+
 :root {
 
   --primary-color: #1d4ed8;
@@ -26,9 +27,15 @@ body {
 .navigation-container {
 
   display: flex;
-  padding: 1rem;
-  position: relative;
+  padding: 1.2rem;
+  z-index: 1;
   position: fixed;
+  box-shadow: 0 7px 20px 2px var(--secondary-hover);
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 1rem 1rem;
+  background-color: var(--white);
 
 }
 
@@ -231,7 +238,7 @@ img {
 
   margin-left: -24rem;
 
-  
+
 
 
 }
@@ -264,7 +271,7 @@ img {
   position: relative;
 }
 
-.header-text-vertical{
+.header-text-vertical {
 
   display: flex;
   flex-direction: column;

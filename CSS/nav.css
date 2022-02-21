@@ -23,9 +23,11 @@ body {
 
 .navigation-container {
 
-    display: flex;
-    padding: 1rem;
-    position: relative;
+    position: fixed;
+    box-shadow: 0 7px 20px 2px var(--secondary-hover);
+    width: 100%;
+    border-radius: 0 0 1rem 1rem;
+    background-color: var(--white);
 
 }
 
