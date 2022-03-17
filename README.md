@@ -2,7 +2,7 @@
 A Component Library to build responsive websites using HTML and CSS.
 
 ## Installation
-To use Procode in your project, copy-paste the below stylesheet <link> into your <head> before all other stylesheets to load our CSS.
+To use Procode in your project, copy-paste the below stylesheet link into your head element before all other stylesheets to load our CSS.
 
 `<link rel="stylesheet" href="https://proocode.netlify.app/style.css" />`
   
