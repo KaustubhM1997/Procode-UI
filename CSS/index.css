@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #1d4ed8;
+  --color-white: white;
+  --secondary-color: #9ca3af;
+  --color-black: black;
+  --primary-hover: #1e40af;
+  --secondary-hover: #e5e7eb;
+  --box-shadow: #cbd5e1;
+  --success-btn-color: #22c55e;
+  --success-btn-hover: #15803d;
+  --danger-btn-color: #dc2626;
+  --danger-btn-hover: #991b1b;
+  --warning-btn-color: #f97316;
+  --warning-btn-hover: #c2410c;
+  --link-color: #0ea5e9;
+  --link-hover: #0284c7;
+  --alert-container: #f9fafb;
+  --succes-alert: #22c55e;
+  --error-alert: #dc2626;
+  --warning-alert: #f97316;
+  --green-badge: #16a34a;
+  --red-badge: #dc2626;
+  --container-color: #f9fafb;
+  --badge-box-shadow: 10px 10px 8px #e5e7eb;
+  --incorrect-password: #dc2626;
+  --failed-text: red;
+  --succes-text: green; 
+}
