@@ -34,6 +34,7 @@ body {
   --red-badge: #dc2626;
   --container-color: #f9fafb;
   --badge-box-shadow: 10px 10px 8px #e5e7eb;
+  --full-box-shadow: 0 0 15px 5px rgb(218, 218, 218);
   --incorrect-password: #dc2626;
   --failed-text: red;
   --succes-text: green; 
