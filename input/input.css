@@ -1,129 +1,104 @@
-@import url(/CSS/nav.css);
-@import url(/CSS/layout.css);
-
-:root {
-
-    --incorrect-password: #dc2626;
-}
+@import url(/CSS/index.css);
+@import url(/CSS/aside.css);
 
 .main-container {
-
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    margin-top: 2rem;
-    position: relative;
-    padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin-top: 2rem;
+  position: relative;
+  padding-left: 5rem;
 }
 
 .h3 {
-
-    margin-bottom: 0.5rem;
-    font-size: 1.8rem;
-
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .hr {
-
-    width: 100%;
-    margin: 0.1rem 0rem;
+  width: 100%;
+  margin: 0.1rem 0rem;
 }
 
 .input-heading {
-
-    margin-top: 1rem;
-    font-weight: bold;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .txt-container {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    border: 1px;
-    padding: 1.5rem;
-    background-color: var(--alert-container);
-    border: none;
-    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  border: 1px;
+  padding: 1.5rem;
+  background-color: var(--alert-container);
+  border: none;
+  box-shadow: 0 0 15px 5px var(--box-shadow);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
 }
 
 .radio-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 4rem;
-    border: 1px;
-    padding: 1.5rem;
-    background-color: var(--alert-container);
-    border: none;
-    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+  border: 1px;
+  padding: 1.5rem;
+  background-color: var(--alert-container);
+  border: none;
+  box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
 }
 
 .txt-input {
-
-    padding: 0.5rem;
-    color: var(--primary-color);
-    border: 2px solid;
-    border-radius: 0.2rem;
+  padding: 0.5rem;
+  color: var(--primary-color);
+  border: 2px solid;
+  border-radius: 0.2rem;
 }
 
 .txt-frames {
-
-    text-align: center;
-    margin-bottom: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .label-input {
-
-    padding: 0.5rem;
-    color: var(--primary-color);
-    border: 2px solid;
-    border-radius: 0.2rem;
-    margin-top: -1.5rem;
+  padding: 0.5rem;
+  color: var(--primary-color);
+  border: 2px solid;
+  border-radius: 0.2rem;
+  margin-top: -1.5rem;
 }
 
 .error-input {
-
-    padding: 0.5rem;
-    color: var(--incorrect-password);
-    border: 2px solid;
-    border-radius: 0.2rem;
-    margin-top: -1.5rem;
+  padding: 0.5rem;
+  color: var(--incorrect-password);
+  border: 2px solid;
+  border-radius: 0.2rem;
+  margin-top: -1.5rem;
 }
 
 .pass-msg {
-
-    color: var(--incorrect-password);
-    margin-top: -1.5rem;
+  color: var(--incorrect-password);
+  margin-top: -1.5rem;
 }
 
 .pass-txt {
-
-    color: var(--incorrect-password);
+  color: var(--incorrect-password);
 }
 
 .radio-input {
-
-    margin-right: -3.5rem;
+  margin-right: -3.5rem;
 }
 
 .check-input {
-
-    margin-right: -3.5rem;
+  margin-right: -3.5rem;
 }

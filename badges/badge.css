@@ -1,189 +1,154 @@
-@import url(/CSS/nav.css);
-@import url(/CSS/layout.css);
-
-
-:root {
-
-    --green-badge: #16a34a;
-    --red-badge: #dc2626;
-    --container-color: #f9fafb;
-    --box-shadow: 10px 10px 8px #e5e7eb;
-}
-
+@import url(/CSS/index.css);
+@import url(/CSS/aside.css);
 
 .main-container {
-
-    display: flex;
-    flex-direction: column;
-    max-width: 70%;
-    margin-top: 2rem;
-    position: relative;
-    padding-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin-top: 2rem;
+  position: relative;
+  padding-left: 5rem;
 }
 
 .h3 {
-
-    margin-bottom: 0.5rem;
-    font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .badge-heading {
-
-    margin-top: 1.3rem;
-    font-weight: bold;
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    text-align: left;
+  margin-top: 1.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .hr {
-    margin-top: 0.8rem;
+  margin-top: 0.8rem;
 }
 
 .icon-badges {
-
-
-    display: flex;
-    flex-direction: column;
-    max-width: 82%;
-    position: relative;
-
-
+  display: flex;
+  flex-direction: column;
+  max-width: 82%;
+  position: relative;
 }
 
 .icons-container {
-
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px;
-    padding: 2rem;
-    border: none;
-    box-shadow: 0 0 15px 5px rgb(218, 218, 218);
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px;
+  padding: 2rem;
+  border: none;
+  box-shadow: 0 0 15px 5px rgb(218, 218, 218);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  justify-content: center;
 }
 
 .icon {
-
-    font-size: 2rem;
-    margin: 0rem 3rem;
+  font-size: 2rem;
+  margin: 0rem 3rem;
 }
 
 .badge-element {
-
-    position: relative;
+  position: relative;
 }
 
 .notif-cart {
-
-    position: absolute;
-    bottom: 1.5rem;
-    left: 4.5rem;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    color: var(--white);
-    font-weight: bold;
-    padding: 0.1rem 0.4rem;
-    font-size: small;
-    /* display: flex;
-    justify-content: center; */
-
+  position: absolute;
+  bottom: 1.5rem;
+  left: 4.5rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.1rem 0.4rem;
+  font-size: small;
 }
 
 .notif-whatsapp {
-
-    position: absolute;
-    bottom: 1.3rem;
-    left: 4rem;
-    border-radius: 50%;
-    background-color: var(--green-badge);
-    color: var(--white);
-    font-weight: bold;
-    padding: 0.1rem 0.3rem;
-    font-size: small;
+  position: absolute;
+  bottom: 1.3rem;
+  left: 4rem;
+  border-radius: 50%;
+  background-color: var(--green-badge);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.1rem 0.3rem;
+  font-size: small;
 }
 
 .notif-mail {
-
-    position: absolute;
-    bottom: 1.3rem;
-    left: 4.3rem;
-    border-radius: 50%;
-    background-color: var(--red-badge);
-    color: var(--white);
-    font-weight: bold;
-    padding: 0.1rem 0.2rem;
-    font-size: small;
+  position: absolute;
+  bottom: 1.3rem;
+  left: 4.3rem;
+  border-radius: 50%;
+  background-color: var(--red-badge);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.1rem 0.2rem;
+  font-size: small;
 }
 
 .img {
-
-    border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
-    margin: 0rem 3rem;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin: 0rem 3rem;
 }
 
 .badge-container {
-
-    display: flex;
-    justify-content: center;
-    border: 1px solid;
-    padding: 3rem;
-    border-radius: 0.5rem;
-    background-color: var(--container-color);
-    border: none;
-    box-shadow: var(--box-shadow);
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--container-color);
+  border: none;
+  box-shadow: var(--badge-box-shadow);
+  margin-bottom: 1rem;
 }
 
 .notif-img1 {
-
-    position: absolute;
-    bottom: 4.2rem;
-    left: 6.7rem;
-    border-radius: 50%;
-    background-color: var(--primary-color);
-    color: var(--white);
-    font-weight: bold;
-    padding: 0.3rem 0.6rem;
-    font-size: small;
+  position: absolute;
+  bottom: 4.2rem;
+  left: 6.7rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.3rem 0.6rem;
+  font-size: small;
 }
 
-
 .notif-img2 {
-
-    position: absolute;
-    bottom: 4.2rem;
-    left: 6.7rem;
-    border-radius: 50%;
-    background-color: var(--green-badge);
-    color: var(--white);
-    font-weight: bold;
-    padding: 0.2rem 0.4rem;
-    font-size: small;
-
+  position: absolute;
+  bottom: 4.2rem;
+  left: 6.7rem;
+  border-radius: 50%;
+  background-color: var(--green-badge);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+  font-size: small;
 }
 
 .notif-img3 {
-
-    position: absolute;
-    bottom: 4.2rem;
-    left: 6.7rem;
-    border-radius: 50%;
-    background-color: var(--red-badge);
-    color: var(--white);
-    font-weight: bold;
-    padding: 0.2rem 0.3rem;
-    font-size: small;
-
+  position: absolute;
+  bottom: 4.2rem;
+  left: 6.7rem;
+  border-radius: 50%;
+  background-color: var(--red-badge);
+  color: var(--color-white);
+  font-weight: bold;
+  padding: 0.2rem 0.3rem;
+  font-size: small;
 }
 
 .iframe-container {
-
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
 }

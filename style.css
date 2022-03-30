@@ -4,10 +4,11 @@
 @import url(/buttons/button.css);
 @import url(/cards/cards.css);
 @import url(/CSS/landingpage.css);
-@import url(/CSS/layout.css);
-@import url(/CSS/nav.css);
+@import url(/CSS/aside.css);
+@import url(/CSS/index.css);
 @import url(/image/image.css);
 @import url(/input/input.css);
 @import url(/lists/lists.css);
 @import url(/rating/rating.css);
 @import url(/text-utilities/text-utils.css);
+@import url(/navigation/nav.css);
