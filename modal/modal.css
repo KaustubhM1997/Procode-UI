@@ -1,0 +1,131 @@
+@import url(/CSS/index.css);
+@import url(/CSS/aside.css);
+
+.modal-wrapper {
+  display: grid;
+  grid-template-columns: 13rem 1fr;
+}
+
+.navigation-container-modal {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: var(--color-white);
+  background-color: var(--color-white);
+  padding: 1rem;
+  border-radius: 0 0 0.4rem 0.5rem;
+}
+
+.nav-header-item-modal {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-left: 6rem;
+  margin-top: 0.5rem;
+}
+
+.heading-inverted-modal {
+  color: var(--color-black);
+}
+
+.logo-version-modal {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.nav-item-modal {
+  margin-top: 1rem;
+}
+
+.nav-list-item-modal {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-right: 6rem;
+}
+
+.main-wrapper-modal {
+  padding-left: 5rem;
+  margin-top: 2rem;
+}
+
+.h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.hr {
+  margin-top: 0.8rem;
+}
+
+.modal-heading {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.modal-container {
+  margin-top: 1.5rem;
+  margin-left: 17rem;
+  width: fit-content;
+  padding: 1.3rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: var(--full-box-shadow);
+}
+
+.modal-buttons {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.modal-primary-btn, .modal-secondary-btn {
+    padding: 0.7rem 1.4rem;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.modal-text {
+
+    font-weight: bold;
+}
+
+.modal-secondary-btn {
+
+    background-color: var(--primary-color);
+}
+
+.modal-primary-btn {
+
+    background-color: var(--danger-btn-color);
+}
+
+.modal-secondary-btn:hover {
+
+    background-color: var(--primary-hover);
+}
+
+
+.modal-primary-btn:hover {
+
+    background-color: var(--danger-btn-hover);
+}
+
+.primary-frames-modal {
+
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+
+
