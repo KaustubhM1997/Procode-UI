@@ -1,5 +1,3 @@
-/* @import url(/CSS/aside.css); */
-
 @import url(/CSS/index.css);
 @import url(/CSS/aside.css);
 
@@ -130,51 +128,6 @@
 
     margin-left: 9rem;
     margin-top: 2rem;
-
-
 }
 
 
-
-/* .brand-text {
-
-    font-size: large;
-}
-
-.modal-brand-text {
-    color: var(--primary-color);
-    font-weight: bold;
-    font-size: 2.4rem;
-    margin-left: 5rem;
-}
-
-.navigation-container-modal .inverted {
-
-    color: var(--color-black);
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.navigation-container-modal .brand-inverted {
-
-    color: var(--color-black);
-    font-size: small;
-}
-
-.modal-document {
-
-    color: var(--primary-color);
-    font-weight: bold;
-    margin: 0.8rem 4rem 0 0;
-}
-
-.modal-brand-text:hover, .inverted:hover, .brand-inverted:hover {
-
-    color: var(--secondary-color);
-}
-
-
-.nav-brand {
-
-    text-decoration: none;
-} */
