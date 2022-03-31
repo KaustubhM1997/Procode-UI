@@ -3,6 +3,7 @@
 @import url(/badges/badge.css);
 @import url(/buttons/button.css);
 @import url(/cards/cards.css);
+@import url(/grids/grids.css);
 @import url(/CSS/landingpage.css);
 @import url(/CSS/aside.css);
 @import url(/CSS/index.css);
@@ -13,3 +14,5 @@
 @import url(/text-utilities/text-utils.css);
 @import url(/navigation/nav.css);
 @import url(/modal/modal.css);
+@import url(/slider/slider.css);
+@import url(/toast/toast.css);

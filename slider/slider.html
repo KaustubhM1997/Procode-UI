@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simplified Grids</title>
-    <link rel="stylesheet" href="./grids.css">
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon-cl.png">
-
+    <title>Slider</title>
+    <link rel="stylesheet" href="slider.css">
 </head>
 
 <body>
+
+
 
     <nav class="navigation-container">
         <div class="nav-header"> <a class="nav-header-item" href="/">Pro<span class="heading-inverted">CODE<span
@@ -70,11 +70,11 @@
                 <li class="drawer-item">
                     <a href="/navigation/nav.html">Navigation</a>
                 </li>
-                <li class="drawer-item">
+                <li class="drawer-item drawer-item-active">
                     <a href="/grids/grids.html">Grid</a>
                 </li>
-                <li class="drawer-item drawer-item-active">
-                    <a href="/slider/slider.html">Slider</a>
+                <li class="drawer-item">
+                    <a href="/">Slider</a>
                 </li>
                 <li class="drawer-item">
                     <a href="/toast/toast.html">Toast (Snackbar)</a>
@@ -86,42 +86,23 @@
             <header>
 
                 <h3 class="h3">Slider</h3>
-                <p class="toast-desc"> A Grid is used to display content in rows or colums that adjust themselves as per
-                    the viewport size. </p>
+                <p class="toast-desc"> A Slider gives the user an ease of traversing through various products or price
+                    ranges. </p>
             </header>
 
             <hr class="hr">
 
 
             <section class="section typography">
-                <p class="toast-heading">Simplified Grid: 2</p>
-                <div class="grid-two-container">
+                <p class="toast-heading">A Basic Slider</p>
+                <div class="slider-container">
 
-                    <p>Item 1</p>
-                    <p>Item 2</p>
+                    <input class="slider-input" type="range" min="100" max="300" value="50">
                 </div>
                 <div class="typo-frames">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-two-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%253EItem%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cp%253EItem%25202%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-                        style="width: 420px; height: 279px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-
-                </div>
-            </section>
-
-
-            <section class="section typography">
-                <p class="toast-heading">Simplified Grid: 3</p>
-                <div class="grid-three-container">
-                    <p>Item 1</p>
-                    <p>Item 2</p>
-                    <p>Item 3</p>
-                </div>
-                <div class="typo-frames">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-three-container%2522%253E%250A%2520%2520%2520%2520%253Cp%253EItem%25201%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253EItem%25202%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%253EItem%25203%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A"
-                        style="width: 437px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522slider-input%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520type%253D%2522range%2522%2520min%253D%2522100%2522%2520%250A%2520%2520%2520%2520%2520%2520%2520max%253D%2522300%2522%2520value%253D%252250%2522%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 428px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
 
@@ -133,7 +114,7 @@
         </div>
 
 
-</body>
+
 
 </body>
 
