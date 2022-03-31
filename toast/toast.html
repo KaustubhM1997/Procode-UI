@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Images</title>
-    <link rel="stylesheet" href="image.css">
+    <title>Toast</title>
+    <link rel="stylesheet" href="./toast.css">
     <link rel="shortcut icon" type="image/png" href="/assets/favicon-cl.png">
 
 </head>
@@ -15,10 +15,10 @@
 
     <nav class="navigation-container">
         <div class="nav-header"> <a class="nav-header-item" href="/">Pro<span class="heading-inverted">CODE<span
-                        class="logo-version"> v1.0</span></a></div>
+                        class="logo-version"> v1.0</span></a>
+        </div>
         <div class="nav-item"> <a class="nav-list-item" href="/text-utilities/text-utils.html">DOCUMENTATION</a> </div>
     </nav>
-
 
     <div class="container">
         <aside class="drawer">
@@ -52,7 +52,7 @@
                 <li class="drawer-item">
                     <a href="/cards/cards.html">Card</a>
                 </li>
-                <li class="drawer-item drawer-item-active">
+                <li class="drawer-item">
                     <a href="/image/image.html">Image</a>
                 </li>
                 <li class="drawer-item">
@@ -61,7 +61,7 @@
                 <li class="drawer-item">
                     <a href="/lists/lists.html">Lists</a>
                 </li>
-                <li class="drawer-item ">
+                <li class="drawer-item">
                     <a href="/rating/rating.html">Rating</a>
                 </li>
                 <li class="drawer-item">
@@ -76,31 +76,38 @@
                 <li class="drawer-item">
                     <a href="/">Slider</a>
                 </li>
-                <li class="drawer-item">
+                <li class="drawer-item drawer-item-active">
                     <a href="/toast/toast.html">Toast (Snackbar)</a>
                 </li>
             </ul>
         </aside>
 
         <div class="main-container">
+            <header>
 
-            <h3 class="h3">Images</h3>
-            <p>Responsive Image Components are used to display Images on websites, which are screen responsive. They
-                expand
-                upto the width of the container they are in.</p>
+                <h3 class="h3">Toast/Snackbar</h3>
+                <p class="toast-desc">Toasts are used to show a message when an interaction happens between the user and
+                    the app. These messages disappear after a few seconds. </p>
             </header>
+
             <hr class="hr">
 
-            <section class="section images">
-                <p class="image-heading">Round Image</p>
-                <div class="img-container">
-                    <img class="round" src="/assets/img1.jpg" alt="img-1">
-                </div>
-                <div class="image-frames">
 
+            <section class="section typography">
+                <p class="toast-heading">A Simple Toast</p>
+                <div class="toast-container">
+
+                    <div class="toast-content">
+                        <p class="toast-msg">Your item has been added to cart</p>
+                        <button class="toast-btn">X</button>
+                    </div>
+
+
+                </div>
+                <div class="typo-frames">
                     <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%253Cimg%2520class%253D%2522round%2522%2520src%253D%2522%252Fassets%252Fimg1.jpg%2522%2520alt%253D%2522img-1%2522%253E%250A%253C%252Fdiv%253E"
-                        style="width: 605px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-msg%2522%253EYour%2520item%2520has%2520been%2520added%2520to%2520cart%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 673px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
 
@@ -108,27 +115,11 @@
             </section>
 
             <hr class="hr">
-
-            <section class="section images">
-                <p class="image-heading">Responsive Image</p>
-                <div class="img-container">
-                    <img class="responsive" src="/assets/img2.jpg" alt="img-2">
-                </div>
-                <div class="image-frames">
-
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%253Cimg%2520class%253D%2522responsive%2522%2520src%253D%2522%252Fassets%252Fimg2.jpg%2522%2520alt%253D%2522img-2%2522%253E%250A%253C%252Fdiv%253E"
-                        style="width: 647px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-
-                </div>
-            </section>
-
 
         </div>
 
 
+</body>
 
 </body>
 

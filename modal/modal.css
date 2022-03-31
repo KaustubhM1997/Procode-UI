@@ -2,6 +2,10 @@
 @import url(/CSS/aside.css);
 
 .modal-wrapper {
+
+  /* display: grid; */
+  /* width: 100%; */
+
   display: grid;
   grid-template-columns: 13rem 1fr;
 }
@@ -25,8 +29,22 @@
   margin-top: 0.5rem;
 }
 
+
+.nav-header-item-modal:hover {
+
+  color: var(--secondary-color);
+
+}
+
 .heading-inverted-modal {
   color: var(--color-black);
+}
+
+.heading-inverted-modal:hover {
+
+  color: var(--secondary-color);
+
+
 }
 
 .logo-version-modal {
@@ -43,12 +61,19 @@
   color: var(--primary-color);
   font-size: 0.9rem;
   font-weight: bold;
-  margin-right: 6rem;
+  /* margin-right: 5rem; */
 }
+
+.nav-list-item-modal:hover {
+  color: var(--secondary-color);
+}
+
 
 .main-wrapper-modal {
   padding-left: 5rem;
   margin-top: 2rem;
+  /* border: 1px solid red; */
+  /* width: 100%; */
 }
 
 .h3 {
@@ -69,7 +94,8 @@
 
 .modal-container {
   margin-top: 1.5rem;
-  margin-left: 17rem;
+  /* margin-left: 17rem; */
+  margin: 0 auto;
   width: fit-content;
   padding: 1.3rem 3.5rem;
   display: flex;
@@ -124,8 +150,68 @@
 
 .primary-frames-modal {
 
-    margin-left: 9rem;
+    margin-left: 14rem;
     margin-top: 2rem;
+    /* width: 50%; */
+    /* margin: 0 auto;
+    display: flex; */
+}
+
+.modal-desc {
+
+  margin-bottom: 1rem;
+}
+
+/* .fixed-width {
+
+  border: 1px solid red;
+  width: 80%;
+} */
+
+
+@media only screen and (max-width: 900px){
+
+  .drawer {
+
+    display: none;
+  }
+
+  .modal-wrapper {
+
+    grid-template-columns: 1fr;
+  }
+
+
 }
 
 
+
+@media only screen and (max-width: 613px){
+
+  .nav-header-item-modal {
+
+    margin-left: 2rem;
+  }
+
+  .nav-list-item-modal {
+
+    margin-right: 1rem;
+
+
+  }
+
+
+}
+
+@media only screen and (max-width: 480px){
+
+  .nav-list-item-modal{
+
+    margin-right: 0;
+  }
+
+  .primary-frames-modal {
+
+    margin-left: 5rem;
+  }
+}
