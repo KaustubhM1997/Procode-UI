@@ -120,3 +120,12 @@ body {
 .secondary-link:hover {
   background-color: var(--secondary-hover);
 }
+
+
+@media only screena and (max-width: 480px) {
+
+  .nav-header-item {
+
+    margin-left: 0;
+  }
+}

@@ -95,3 +95,14 @@
   color: var(--succes-text);
   font-weight: bold;
 }
+
+@media only screen and (max-width: 480px){
+
+  .drawer {
+
+    display: none;
+  }
+
+
+  
+}
