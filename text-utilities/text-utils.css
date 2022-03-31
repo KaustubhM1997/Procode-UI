@@ -7,7 +7,7 @@
   max-width: 83%;
   margin-top: 2rem;
   position: relative;
-  padding-left: 7rem;
+  padding: 0 8rem 0 7rem;
 }
 
 .h3 {
@@ -104,5 +104,5 @@
   }
 
 
-  
+
 }

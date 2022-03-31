@@ -1,0 +1,52 @@
+@import url(/CSS/index.css);
+@import url(/CSS/aside.css);
+@import url(/text-utilities/text-utils.css);
+
+.toast-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px;
+  padding: 1rem 0.75rem;
+  max-width: 40%;
+  border: none;
+  box-shadow: 0 0 15px 5px var(--box-shadow);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: var(--primary-color);
+}
+
+.toast-heading {
+  margin-top: 1.3rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.toast-content {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-white);
+}
+
+.toast-msg {
+  margin-right: 2rem;
+}
+
+.toast-btn {
+  border: none;
+  color: var(--color-white);
+  font-size: 0.9rem;
+  outline: none;
+  background-color: transparent;
+  margin: 0.1rem 0 0 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .drawer {
+    display: none;
+  }
+}

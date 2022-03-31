@@ -7,7 +7,7 @@
 .drawer {
   display: flex;
   flex-direction: column;
-  /* flex: 0 0 16rem; */
+  flex: 0 1 16rem;
   border-right: 1px solid var(--secondary-color);
   padding-bottom: 1rem;
 }
