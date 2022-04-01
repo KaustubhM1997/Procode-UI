@@ -1,0 +1,23 @@
+@import url(/CSS/index.css);
+@import url(/CSS/aside.css);
+@import url(/text-utilities/text-utils.css);
+@import url(/toast/toast.css);
+@import url(/grids/grids.css);
+
+
+.cl-name {
+
+    color: var(--primary-color);
+    display: inline-block;
+}
+
+.intro-text {
+
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.text-bold {
+
+    font-weight: bold;
+}
