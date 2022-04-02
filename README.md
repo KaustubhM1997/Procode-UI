@@ -6,11 +6,11 @@ To use Procode in your project, you could do either of the following:
 
 1) Copy-paste the below stylesheet link into your head element before all other stylesheets to load our CSS.
 
-    `<link rel="stylesheet" href="https://proocode.netlify.app/style.css" />`
+    `<link rel="stylesheet" href="https://proocode-revamp.netlify.app/style.css" />`
 
 2) Use the following import statement at the beginning of your CSS file.
 
-     `@import url("https://proocode.netlify.app/style.css");`
+     `@import url("https://proocode-revamp.netlify.app/style.css");`
   
 ## Components defined in the library
   
