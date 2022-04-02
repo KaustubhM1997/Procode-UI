@@ -2,7 +2,6 @@
 
 .container {
   display: flex;
-  
 }
 
 .drawer {
@@ -11,9 +10,6 @@
   flex: 0 1 16rem;
   border-right: 1px solid var(--secondary-color);
   padding-bottom: 1rem;
-  /* position: fixed; */
-  /* overflow-y: auto;
-    z-index: 5; */
 }
 
 .drawer-item {
