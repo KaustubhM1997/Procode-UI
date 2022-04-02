@@ -5,311 +5,338 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Components</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Cards</title>
     <link rel="stylesheet" href="./cards.css">
     <link rel="shortcut icon" type="image/png" href="/assets/favicon-cl.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 
 </head>
 
-
 <body>
 
-    <nav class="navigation-container">
 
-        <div class="nav-header"> <a class="nav-header-item" href="/index.html">Pro<span class="heading-inverted"> CODE
-                    <span class="logo-version">v1.0</span></a>
+    <nav class="navigation-container">
+        <div class="nav-header"> <a class="nav-header-item" href="/">Pro<span class="heading-inverted">CODE<span
+                        class="logo-version"> v1.0</span></a>
         </div>
         <div class="nav-item"> <a class="nav-list-item" href="/text-utilities/text-utils.html">DOCUMENTATION</a> </div>
     </nav>
 
-
     <div class="container">
+        <aside class="drawer">
+            <div class="drawer-subheader">Get Started</div>
+            <ul>
+                <li class="drawer-item">
+                    <a href="/intro/intro.html">Introduction</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/text-utilities/text-utils.html">Typography</a>
+                </li>
+                <li class="drawer-item"><a href="/">Colors</a></li>
 
-        <h2 class="card-heading">CARDS</h2>
+                <li class="drawer-item"><a href="/">Contribution</a></li>
+            </ul>
+            <hr class="divider" />
+            <div class="drawer-subheader">Components</div>
+            <ul>
+                <li class="drawer-item">
+                    <a href="/alert/alert.html">Alert</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/avatar/avatar.html">Avatar</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/badges/badge.html">Badge</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/buttons/buttons.html">Button</a>
+                </li>
+                <li class="drawer-item drawer-item-active">
+                    <a href="/cards/cards.html">Card</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/image/image.html">Image</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/input/input.html">Input</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/lists/lists.html">Lists</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/rating/rating.html">Rating</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/modal/modal.html">Modal</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/navigation/nav.html">Navigation</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/grids/grids.html">Grid</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/slider/slider.html">Slider</a>
+                </li>
+                <li class="drawer-item">
+                    <a href="/toast/toast.html">Toast (Snackbar)</a>
+                </li>
+            </ul>
+        </aside>
 
-        <p class="description">Cards are used to dislay information to the user that's related to a particular topic
-            in a clear and concise manner with the help of text and images.</p>
-    </div>
+        <div class="main-container-card">
+            <header>
 
-    <div class="thematic-break"></div>
+                <h3 class="h3">Cards</h3>
+                <p class="toast-desc"> Cards are used to dislay information to the user that's related to a particular
+                    topic in a clear and concise manner with the help of text and images.</p>
+            </header>
+
+            <hr class="hr">
+
+
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">A Basic Card with Image</p>
+
+                <div class="card-holder">
+                    <div class="card-container">
+                        <img class="img-card"
+                            src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
+                            alt="card-img" />
+                        <div class="card-subheading">Football's Greatest Star</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nemo
+                            ipsam? Unde quisquam quaerat obcaecati rerum quis, dignissimos laboriosam delectus
+                            distinctio sed enim eum molestias corporis, est quo odit aliquam.</div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-card%2522%2520src%253D%2522https%253A%252F%252Fi2-%2520%2520%2520%2520%2520%2520prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%252F%250AReal-Madrid-v-Sevilla-La-Liga.jpg%2522%2520alt%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subheading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520%250A%2520adipisicing%2520elit.Quaerat%252C%2520nemo%2520ipsam%253Fm%2520quaerias%2520corporis%252C%2520est%2520quo%2520%250A%2520odit%2520aliquam.%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
+            <hr class="hr">
+
+
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">Card with Icons and Shadow</p>
+
+                <div class="card-holder">
+                    <div class="card-container">
+                        <img class="img-card"
+                            src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
+                            alt="card-img" />
+                        <div class="card-subheading">Football's Greatest Star</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nemo
+                            ipsam? Unde quisquam quaeosam delectus
+                            distinctio sed enim eum molesorporis, est quo odit aliquam.
+                        </div>
+                        <div class="card-icons">
+                            <p>READ</p>
+                            <p>BOOKMARK</p>
+                            <i class="fa-regular fa-heart card-2-icons"></i>
+                            <i class="fa-solid fa-share-nodes card-2-icons"></i>
+                            <i class="fa-solid fa-arrow-down card-2-icons"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-card%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%250A%2520%2520%2520%2520%2520%2520%2520%2520%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subheading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%250A%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Quaerat%252C%2520nemo%2520ipsam%253F%2520Unde%2520quissimos%2520laboriosam%2520%250A%2520%2520%2520%2520%2520delectus%2520distinctio%2520sed%2520enim%2520eum%2520molestias%2520corporis%252C%2520est%2520quo%250A%2520%2520%2520%2520%2520odit%2520aliquam.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EREAD%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EBOOKMARK%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-heart%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-arrow-down%2520card-2-icons%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
+            <hr class="hr">
+
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">Text Only Card</p>
+
+                <div class="card-holder">
+                    <div class="card-container">
+                        <div class="card-subheading">Football's Greatest Star</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nemo
+                            ipsam? Unde quisquam quaeosam delectus
+                            distinctio sed enim eum molesorporis, est quo odit aliquam. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Dicta vero eos tempora aperiam labore quam ipsam, rerum hic
+                            quis itaque, eum minima id, accusantium iusto. Iste iusto sunt labore tempora!
+                        </div>
+                        <div class="card-icons">
+                            <p>READ</p>
+                            <p>BOOKMARK</p>
+                            <i class="fa-regular fa-heart card-2-icons"></i>
+                            <i class="fa-solid fa-share-nodes card-2-icons"></i>
+                            <i class="fa-solid fa-arrow-down card-2-icons"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subheading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%250A%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Quaerat%252C%2520nemo%2520ipsam%253F%2520Unde%2520quissimos%2520laboriosam%2520%250A%2520%2520%2520%2520%2520delectus%2520distinctio%2520sed%2520enim%2520eum%2520molestias%2520corporis%252C%2520est%2520quo%250A%2520%2520%2520%2520%2520odit%2520aliquam.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EREAD%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EBOOKMARK%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-heart%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-arrow-down%2520card-2-icons%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
+            <hr class="hr">
+
+
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">Card with Dismiss Icon</p>
+
+                <div class="card-holder">
+                    <div class="card-container">
+                        <img class="img-card"
+                            src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
+                            alt="card-img" />
+                        <div class="card-subheading">Football's Greatest Star</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nemo
+                            ipsam? Unde quisquam quaeosam delectus
+                            distinctio sed enim eum molesorporis, est quo odit aliquam.
+                        </div>
+
+                        <div class="dismiss-icon">X</div>
+
+
+                        <div class="card-icons">
+                            <p>READ</p>
+                            <p>BOOKMARK</p>
+                            <i class="fa-regular fa-heart card-2-icons"></i>
+                            <i class="fa-solid fa-share-nodes card-2-icons"></i>
+                            <i class="fa-solid fa-arrow-down card-2-icons"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-card%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%250A%2520%2520%2520%2520%2520%2520%2520%2520%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subheading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%250A%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Quaerat%252C%2520nemo%2520ipsam%253F%2520Unde%2520quissimos%2520laboriosam%2520%250A%2520%2520%2520%2520%2520delectus%2520distinctio%2520sed%2520enim%2520eum%2520molestias%2520corporis%252C%2520est%2520quo%250A%2520%2520%2520%2520%2520odit%2520aliquam.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522dismiss-icon%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EREAD%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EBOOKMARK%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-heart%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-arrow-down%2520card-2-icons%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
+            <hr class="hr">
+
+
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">Vertical Card</p>
+
+                <div class="card-holder">
+                    <div class="card-container-vertical">
+                        <img class="img-card"
+                            src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
+                            alt="card-img" />
+                        <div class="card-subheading">Football's Greatest Star</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nemo
+                            ipsam? Unde quisquam quaeosam delectus
+                            distinctio sed enim eum molesorporis, est quo odit aliquam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-container-vertical%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522img-card%2522%2520src%253D%2522https%253A%252F%252Fi2-%2520%2520%2520prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%250A%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250Aalt%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-subheading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%250A%2520Quaerat%252C%2520nemo%2520ipsam%253F%2520Undeum%2520molesorporis%252C%2520est%2520quo%2520odit%2520aliquam.%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
+            <hr class="hr">
 
 
 
-    <h3>A Basic Card</h3>
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">Card with Text Overlay</p>
+
+                <div class="card-holder">
+                    <div class="card-container">
+                        <img class="img-card"
+                            src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
+                            alt="card-img" />
+                        <div class="card-subheading-overlay">Football's Greatest Star</div>
+                        <div class="card-text-overlay">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Quaerat, nemo
+                            ipsam? Unde quisquam quaerat obcaecati rerum quis, dignissimos laboriosam delectus
+                            distinctio sed enim eum molestias corporis, est quo odit aliquam.</div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-card%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%250A%2520%2520%2520%2520%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%2520alt%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-subheading-overlay%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-text-overlay%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520%250A%2520%2520%2520%2520adipisicing%2520elit.%2520Quaerat%252C%2520nemo%2520ipsam%253F%2520Unde%2520quisquam%2520quaerat%2520obcaecati%250A%2520%2520%2520%2520rerum%2520quis%252C%2520dignissimos%2520laboriosam%2520delectus%2520distinctio%2520sed%2520enim%2520eum%2520%250A%2520%2520%2520%2520molestias%2520corporis%252C%2520est%2520quo%2520odit%2520aliquam.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
 
 
+            <hr class="hr">
 
-    <div class="main-container">
-        <div class="image-section">
-            <img src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
-                alt="" />
+
+            <section class="section typography">
+                <!-- main container to hold the card block-->
+                <p class="card-specific-heading">Card with a Badge</p>
+
+                <div class="card-holder">
+                    <div class="card-container">
+                        <img class="img-card"
+                            src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
+                            alt="card-img" />
+                        <div class="card-subheading">Football's Greatest Star</div>
+                        <div class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, nemo
+                            ipsam? Unde quisquam quaeosam delectus
+                            distinctio sed enim eum molesorporis, est quo odit aliquam.
+                        </div>
+                        <span class="card-badge">CR7</span>
+                        <div class="card-icons">
+                            <p>READ</p>
+                            <p>BOOKMARK</p>
+                            <i class="fa-regular fa-heart card-2-icons"></i>
+                            <i class="fa-solid fa-share-nodes card-2-icons"></i>
+                            <i class="fa-solid fa-arrow-down card-2-icons"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="typo-frames">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-holder%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-card%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%250A%2520%2520%2520%2520%2520%2520%2520%2520%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subheading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%250A%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Quaerat%252C%2520nemo%2520ipsam%253F%2520Unde%2520quissimos%2520laboriosam%2520%250A%2520%2520%2520%2520%2520delectus%2520distinctio%2520sed%2520enim%2520eum%2520molestias%2520corporis%252C%2520est%2520quo%250A%2520%2520%2520%2520%2520odit%2520aliquam.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EREAD%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cp%253EBOOKMARK%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-regular%2520fa-heart%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-share-nodes%2520card-2-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-arrow-down%2520card-2-icons%2522%253E%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 624px; height: 310px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
+            <hr class="hr">
+
         </div>
-        <div class="header-text">
-            <span class="main-heading">Football's Greatest Star</span>
-            <small class="small-text"> by Kaustubh M</small>
-        </div>
-        <main class="main-text">The Portugese legend and a 5 times Ballon d'Or Winner!</main>
-    </div>
-
-    <br>
-
-    <div class="frame-parent">
-
-        <code>
-
-            <iframe class="frames"
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="width: 1024px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-
-
-        </code>
-
-    </div>
-
-    <hr>
-
-    <h3>Cards with Shadow</h3>
-
-    <div class="main-container-shadow">
-
-
-        <div class="image-section">
-            <img src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
-                alt="" />
-        </div>
-        <div class="header-text">
-            <span class="main-heading">Football's Greatest Star</span>
-            <small class="small-text"> by Kaustubh M</small>
-        </div>
-        <main class="main-text">The Portugese legend and a 5 times Ballon d'Or Winner!</main>
-
-        <footer>
-
-            <button class="main-btn read">READ</button>
-            <button class="main-btn">BOOKMARK</button>
-
-
-            <button class="other-btn"><i class="far fa-heart"></i></button>
-            <button class="other-btn"><i class="fas fa-share-alt"></i></button>
-            <button class="other-btn">
-                <i class="fas fa-angle-double-right"></i>
-            </button>
-        </footer>
-
-
-
-
-    </div>
-
-    <br>
-
-    <div class="shadow">
-
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522image-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%253C%252Fmain%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522main-btn%2520read%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522main-btn%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522other-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522other-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522other-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-angle-double-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffooter%253E"
-            style="width: 1024px; height: 614px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-
-    </div>
-
-    <hr>
-
-    <h3>Cards with Text Overlay</h3>
-
-    <div class="main-container">
-
-
-        <div class="image-section">
-            <img src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
-                alt="" />
-        </div>
-        <div class="header-text">
-            <span class="main-heading-overlay">Football's Greatest Star</span>
-            <small class="small-text-overlay"> by Kaustubh M</small>
-        </div>
-        <main class="main-text">The Portugese legend and a 5 times Ballon d'Or Winner!</main>
-
-        <footer>
-
-            <button class="main-btn read">READ</button>
-            <button class="main-btn">BOOKMARK</button>
-
-
-            <button class="other-btn"><i class="far fa-heart"></i></button>
-            <button class="other-btn"><i class="fas fa-share-alt"></i></button>
-            <button class="other-btn">
-                <i class="fas fa-angle-double-right"></i>
-            </button>
-        </footer>
-
-
-
-
-    </div>
-
-    <br>
-
-    <div class="overlay-frames">
-
-        <embed
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi2-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522main-btn%2520read%2522%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522main-btn%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522other-btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522other-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522other-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-angle-double-right%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffooter%253E"
-            style="width: 1024px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </embed>
-
-    </div>
-
-    <hr>
-
-    <h3>Cards with Dismiss</h3>
-
-    <div class="main-container">
-
-
-        <div class="image-section">
-            <img src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
-                alt="" />
-        </div>
-        <div class="header-text">
-            <span class="main-heading">Football's Greatest Star</span>
-            <small class="small-text"> by Kaustubh M</small>
-        </div>
-        <main class="main-text">The Portugese legend and a 5 times Ballon d'Or Winner!
-            <div class="main-btn">
-                <button class="right-btn">X</button>
-            </div>
-        </main>
-    </div>
-    <br>
-
-    <div class="frames-dismiss">
-
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522right-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 901px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </div>
-
-    <hr>
-
-
-    <h3>Text Only Horizontal Cards</h3>
-
-
-
-    <div class="main-container">
-        <div class="header-text">
-            <span class="main-heading">Football's Greatest Star</span>
-            <small class="small-text"> by Kaustubh M</small>
-        </div>
-        <main class="main-text">The Portugese legend and a 5 times Ballon d'Or Winner! Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged.</main>
-    </div>
-
-    <br>
-
-    <div class="frames-text">
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%2520Lorem%2520Ipsum%2520has%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520been%2520the%2520industry%27s%2520standard%2520dummy%2520text%2520ever%2520since%2520the%25201500s%252C%2520when%2520an%2520unknown%2520printer%2520took%2520a%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520galley%2520of%2520type%2520and%2520scrambled%2520it%2520to%2520make%2520a%2520type%2520specimen%2520book.%2520It%2520has%2520survived%2520not%2520only%2520five%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520centuries%252C%2520but%2520also%2520the%2520leap%2520into%2520electronic%2520typesetting%252C%2520remaining%2520essentially%2520unchanged.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 1024px; height: 374px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-    </div>
-
-    <hr>
-
-    <h3>Cards with Badges</h3>
-
-    <div class="main-container">
-
-
-        <div class="image-section">
-            <img src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
-                alt="" />
-        </div>
-        <div class="header-text">
-            <span class="main-heading">Football's Greatest Star</span>
-            <small class="small-text"> by Kaustubh M</small>
-
-            <span class="badge">CR7</span>
-        </div>
-        <main class="main-text">The Portugese legend and a 5 times Ballon d'Or Winner!
-        </main>
-
-
-
-
-    </div>
-
-    <div class="code-snippet">
-
-
-        <embed
-            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522main-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253ECR7%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 1024px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
-            sandbox="allow-scripts allow-same-origin">
-        </embed>
-    </div>
-
-    <hr>
-
-
-    <h3>Vertical Cards</h3>
-
-    <div class="main-container-vertical">
-
-
-        <div class="image-section">
-            <img src="https://i2-prod.mirror.co.uk/incoming/article11667626.ece/ALTERNATES/s615b/Real-Madrid-v-Sevilla-La-Liga.jpg"
-                alt="" />
-        </div>
-        <div class="header-text-vertical">
-            <span class="main-heading">Football's Greatest Star</span>
-            <small class="small-text"> by Kaustubh M</small>
-        </div>
-        <main class="main-text-vertical">The Portugese legend and a 5 times Ballon d'Or Winner! It is a long established
-            fact that a reader will be distracted by the readable content of a page when looking at its layout. The
-            point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-            using.
-        </main>
-        <br>
-
-        <div class="frames-vertical">
-            <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi2-prod.mirror.co.uk%252Fincoming%252Farticle11667626.ece%252FALTERNATES%252Fs615b%252FReal-Madrid-v-Sevilla-La-Liga.jpg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522header-text-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522main-heading%2522%253EFootball%27s%2520Greatest%2520Star%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csmall%2520class%253D%2522small-text%2522%253E%2520by%2520Kaustubh%2520M%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522main-text-vertical%2522%253EThe%2520Portugese%2520legend%2520and%2520a%25205%2520times%2520Ballon%2520d%27Or%2520Winner%21%2520It%2520is%2520a%2520long%2520established%2520fact%2520that%2520a%2520reader%2520will%2520be%2520distracted%2520by%2520the%2520readable%2520content%2520of%2520a%2520page%2520when%2520looking%2520at%2520its%2520layout.%2520The%2520point%2520of%2520using%2520Lorem%2520Ipsum%2520is%2520that%2520it%2520has%2520a%2520more-or-less%2520normal%2520distribution%2520of%2520letters%252C%2520as%2520opposed%2520to%2520using.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E"
-                style="width: 1024px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
-        </div>
-
-
-
-
-    </div>
-
-    <div></div>
-
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
 
 
 

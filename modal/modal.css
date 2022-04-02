@@ -94,8 +94,8 @@
 
 .modal-container {
   margin-top: 1.5rem;
-  /* margin-left: 17rem; */
-  margin: 0 auto;
+  margin-left: 13rem;
+  /* margin: 0 auto; */
   width: fit-content;
   padding: 1.3rem 3.5rem;
   display: flex;
