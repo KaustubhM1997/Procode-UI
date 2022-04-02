@@ -13,17 +13,23 @@ To use Procode in your project, you could do either of the following:
      `@import url("https://proocode-revamp.netlify.app/style.css");`
   
 ## Components defined in the library
-  
-* [Typography](https://proocode.netlify.app/text-utilities/text-utils.html)
-* [Alert](https://proocode.netlify.app/alert/alert.html)
-* [Avatar](https://proocode.netlify.app/avatar/avatar.html)
-* [Badge](https://proocode.netlify.app/badges/badge.html)
+
+* [Introduction](https://proocode-revamp.netlify.app/intro/intro.html) 
+* [Typography](https://proocode-revamp.netlify.app/text-utilities/text-utils.html)
+* [Alert](https://proocode-revamp.netlify.app/alert/alert.html)
+* [Avatar](https://proocode-revamp.netlify.app/avatar/avatar.html)
+* [Badge](https://proocode-revamp.netlify.app/buttons/buttons.html)
 * [Button](https://proocode.netlify.app/buttons/buttons.html)
-* [Card](https://proocode.netlify.app/cards/cards.html)
-* [Image](https://proocode.netlify.app/image/image.html)
-* [Input](https://proocode.netlify.app/input/input.html)
-* [Lists](https://proocode.netlify.app/lists/lists.html)
-* [Rating](https://proocode.netlify.app/rating/rating.html)
+* [Card](https://proocode-revamp.netlify.app/cards/cards.html)
+* [Image](https://proocode-revamp.netlify.app/image/image.html)
+* [Input](https://proocode-revamp.netlify.app/input/input.html)
+* [Lists](https://proocode-revamp.netlify.app/lists/lists.html)
+* [Rating](https://proocode-revamp.netlify.app/rating/rating.html)
+* [Modal](https://proocode-revamp.netlify.app/modal/modal.html)
+* [Navigation](https://proocode-revamp.netlify.app/navigation/nav.html)
+* [Grid](https://proocode-revamp.netlify.app/grids/grids.html)
+* [Slider](https://proocode-revamp.netlify.app/slider/slider.html)
+* [Toast](https://proocode-revamp.netlify.app/toast/toast.html)
 
 ## Demo
 ![Alt Text](https://media.giphy.com/media/Nmf7je5cztENQNCRgh/giphy.gif)
