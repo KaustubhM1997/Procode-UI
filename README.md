@@ -18,7 +18,7 @@ To use Procode in your project, you could do either of the following:
 * [Typography](https://proocode-revamp.netlify.app/text-utilities/text-utils.html)
 * [Alert](https://proocode-revamp.netlify.app/alert/alert.html)
 * [Avatar](https://proocode-revamp.netlify.app/avatar/avatar.html)
-* [Badge](https://proocode-revamp.netlify.app/buttons/buttons.html)
+* [Badge](https://proocode-revamp.netlify.app/badges/badge.html)
 * [Button](https://proocode.netlify.app/buttons/buttons.html)
 * [Card](https://proocode-revamp.netlify.app/cards/cards.html)
 * [Image](https://proocode-revamp.netlify.app/image/image.html)
