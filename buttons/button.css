@@ -15,6 +15,12 @@
   font-size: 1.8rem;
 }
 
+.link-btn-cl {
+
+  text-decoration: none;
+  color: var(--color-white);
+}
+
 .button-heading {
   margin-top: 1rem;
   font-weight: bold;

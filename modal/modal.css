@@ -115,7 +115,7 @@
 .modal-primary-btn, .modal-secondary-btn {
     padding: 0.7rem 1.4rem;
     cursor: pointer;
-    color: white;
+    color: var(--color-white);
     font-weight: bold;
     border-radius: 0.2rem;
     border: none;

@@ -19,6 +19,7 @@
   background-color: var(--primary-color);
   padding: 1rem;
   border-radius: 0 0 0.4rem 0.4rem;
+  align-items: center;
 }
 
 .brand-name {
@@ -70,8 +71,112 @@
   margin-left: 9rem;
 }
 
+.ham-nav {
+
+  color: var(--color-white);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-ham-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav-brand {
+
+  color: var(--color-white);
+  font-weight: bold;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+
+}
+
+
+/* MOBILE HAM */
+
+
+.drawer-container {
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-white);
+  width: 150px;
+  height: 100%;
+  padding: 10px;
+  z-index: 1;
+  top: 0;  
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.2rem;
+  
+}
+
+.drawer-close {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.drawer-close:hover {
+
+  opacity: 0.5;
+}
+
+.drawerHam-trans-on {
+  left: 0;
+  transition: left 0.5s ease-out;
+}
+
+.drawerHam-trans-off {
+  left: -225px;
+  transition: left 0.5s ease-out;
+}
+
+/* .drawer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+} */
+
+.drawer-list .ham-aside:hover {
+
+  background-color: var(--secondary-hover);
+  padding: 0.5rem;
+}
+
+.drawer-list > a {
+  color: var(--color-black);
+  padding: 0.2rem;
+  
+}
+
+.ham-aside {
+
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.ham-items {
+
+  text-decoration: none;
+  list-style: none;
+}
+
+
 @media only screen and (max-width: 480px) {
   .nav-container {
     font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 931px) {
+  .nav-input {
+    display: none;
   }
 }

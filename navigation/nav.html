@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navigation</title>
     <link rel="stylesheet" href="./nav.css">
-    <link rel="shortcut icon" type="image/png"  href="/assets/favicon-cl.png">
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon-cl.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -122,16 +122,103 @@
                 <div class="primary-frames-nav">
 
                     <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522brand-name%2522%253EBrandName%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-input%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Search%2520items%2522%2520type%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-cta%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522primary-btn%2522%2520href%253D%2522%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E%250A"
-                    style="width: 647px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522brand-name%2522%253EBrandName%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-input%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Search%2520items%2522%2520type%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-cta%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522primary-btn%2522%2520href%253D%2522%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E%250A"
+                        style="width: 647px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
 
                 </div>
             </section>
             <hr class="hr">
 
+
+            <section class="section-primary">
+                <p class="button-heading">Mobile Nav with Hamburger</p>
+                <p>A Mobile Nav consists of the hamburger menu, the search option, and other services like add to cart,
+                    wishlist, and view orders.</p>
+
+                <nav class="nav-container">
+
+                    <div class="nav-ham-container"> <i class="fa-solid fa-bars ham-nav"></i>
+
+                        <p class="mobile-nav-brand">Some name</p>
+
+                    </div>
+
+
+
+                    <div class="nav-input">
+                        <input placeholder="Search items" type="search">
+                    </div>
+
+                    <div class="nav-cta">
+
+                        <a class="primary-btn" href="">Login</a>
+                        <a href=""><i class="fa-solid fa-heart"></i></a>
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+
+                    </div>
+
+                    <!-- MOBILE DRAWER -->
+
+
+                    <!-- <div class="drawer-container">
+                    <div class="drawer-next">
+                          <div class="drawer-header">
+                            <h3>AMAZON</h3>
+                            <h3 class="drawer-close">&times;</h3>
+                          </div>
+                        <div class="drawer-list">
+          
+                            <a href="#">
+                              <div class="ham-aside">
+                                <i class="fa-solid fa-box" aria-hidden="true"></i>
+                                <span class="ham-items">Your Orders</span>
+                              </div>
+                            </a>
+                            <a href="">
+                              <div class="ham-aside">
+                                <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                                
+                                <span class="ham-items">Wishlist</span>
+                              </div>
+                            </a>
+                            <a href="">
+                              <div class="ham-aside">
+                                <i class="fa-solid fa-cart-arrow-down" aria-hidden="true"></i>
+
+                              
+                                <span class="ham-items">Cart</span>
+                              </div>
+                            </a>
+                            <a href="">
+                              <div class="ham-aside"> 
+                                <i class="fa-solid fa-list" aria-hidden="true"></i>
+                                <span class="ham-items">Lists</span>
+                              </div>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    </div> -->
+            
+
+
+                </nav>
+
+                <div class="primary-frames-nav">
+
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522nav-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522brand-name%2522%253EBrandName%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-input%2522%253E%250A%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Search%2520items%2522%2520type%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522nav-cta%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522primary-btn%2522%2520href%253D%2522%2522%253ELogin%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fa-solid%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E%250A"
+                        style="width: 647px; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                </div>
+            </section>
+
         </div>
+        <script type="text/javascript" src="./nav.js"></script>
 
 </body>
 
