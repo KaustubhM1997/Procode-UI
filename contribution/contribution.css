@@ -1,0 +1,22 @@
+@import url(/CSS/index.css);
+@import url(/CSS/aside.css);
+@import url(/text-utilities/text-utils.css);
+@import url(/toast/toast.css);
+@import url(/grids/grids.css);
+
+.contri-container {
+  margin-top: 2rem;
+}
+
+.contri-desc {
+  margin-bottom: 1rem;
+}
+
+.contri-sub-text {
+  margin-top: 0.7rem;
+}
+
+.contri-pr {
+  text-decoration: none;
+  font-weight: bold;
+}
