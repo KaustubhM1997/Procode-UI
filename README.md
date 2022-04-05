@@ -11,6 +11,9 @@ To use Procode in your project, you could do either of the following:
 2) Use the following import statement at the beginning of your CSS file.
 
      `@import url("https://proocode-revamp.netlify.app/style.css");`
+     
+## Demo
+![Alt Text](https://media.giphy.com/media/MK9gD1EwcTnZulR6Jd/giphy.gif)
   
 ## Components defined in the library
 
@@ -31,9 +34,11 @@ To use Procode in your project, you could do either of the following:
 * [Slider](https://proocode-revamp.netlify.app/slider/slider.html)
 * [Toast](https://proocode-revamp.netlify.app/toast/toast.html)
 
-## Demo
-![Alt Text](https://media.giphy.com/media/MK9gD1EwcTnZulR6Jd/giphy.gif)
+## Components defined in the library
 
+* HTML
+* CSS
+* JS
 
 ## Author
  [Kaustubh Manglurkar](https://kaustubh-m.netlify.app/)
