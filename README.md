@@ -32,7 +32,7 @@ To use Procode in your project, you could do either of the following:
 * [Toast](https://proocode-revamp.netlify.app/toast/toast.html)
 
 ## Demo
-![Alt Text](https://media.giphy.com/media/Nmf7je5cztENQNCRgh/giphy.gif)
+![Alt Text](https://media.giphy.com/media/MK9gD1EwcTnZulR6Jd/giphy.gif)
 
 
 ## Author
