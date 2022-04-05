@@ -34,7 +34,7 @@ To use Procode in your project, you could do either of the following:
 * [Slider](https://proocode-revamp.netlify.app/slider/slider.html)
 * [Toast](https://proocode-revamp.netlify.app/toast/toast.html)
 
-## Components defined in the library
+## Tech Stack
 
 * HTML
 * CSS
