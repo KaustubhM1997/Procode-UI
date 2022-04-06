@@ -39,7 +39,7 @@
   margin-right: 2rem;
 }
 
-#toast-btn {
+.toast-btn {
   border: none;
   color: var(--color-white);
   font-size: 0.9rem;
