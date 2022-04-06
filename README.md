@@ -7,10 +7,8 @@ To use Procode in your project, you could do either of the following:
 1) Copy-paste the below stylesheet links into your `head element` before all other stylesheets to load our CSS.
 
     `<link rel="stylesheet" href="https://proocode-revamp.netlify.app/style.css" />`
-    
-    `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css`
 
-
+    `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />`
 
 2) Use the following import statement at the beginning of your CSS file.
 
