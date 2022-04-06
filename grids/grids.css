@@ -13,10 +13,14 @@
 
 .grid-two-container {
   grid-template-columns: repeat(2, 1fr);
+  height: 10vh;
+  /* align-self: center; */
+  
 }
 
 .grid-three-container {
   grid-template-columns: repeat(3, 1fr);
+  height: 10vh;
 }
 
 .grid-two-container > *,
@@ -24,12 +28,25 @@
   padding: 0.5rem 1rem;
   background-color: var(--secondary-color);
   color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
+  z-index: 1;
+  
 }
 
 @media only screen and (max-width: 970px) {
   .grid-two-container,
   .grid-three-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 972px){
+
+  .grid-frame {
+
+    margin-top: 4rem;
   }
 }
