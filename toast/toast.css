@@ -25,7 +25,7 @@
   font-size: 1.3rem;
 }
 
-.toast-content {
+#toast-content {
   display: flex;
   justify-content: space-between;
   color: var(--color-white);
@@ -35,7 +35,7 @@
   margin-right: 2rem;
 }
 
-.toast-btn {
+#toast-btn {
   border: none;
   color: var(--color-white);
   font-size: 0.9rem;
