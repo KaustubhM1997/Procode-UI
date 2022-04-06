@@ -17,6 +17,7 @@
   margin-top: 1rem;
   text-align: center;
   background-color: var(--primary-color);
+ 
 }
 
 .toast-heading {
@@ -25,17 +26,20 @@
   font-size: 1.3rem;
 }
 
-.toast-content {
+.toast-holder {
+
   display: flex;
   justify-content: space-between;
   color: var(--color-white);
+ 
+
 }
 
 .toast-msg {
   margin-right: 2rem;
 }
 
-.toast-btn {
+#toast-btn {
   border: none;
   color: var(--color-white);
   font-size: 0.9rem;
@@ -43,6 +47,11 @@
   background-color: transparent;
   margin: 0.1rem 0 0 1rem;
   cursor: pointer;
+}
+
+.hidden {
+
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {
