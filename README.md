@@ -2,7 +2,7 @@
 [ProCODE](https://proocode-revamp.netlify.app/) is a Component Library that would help you build responsive websites using HTML, CSS, and JS.
 
 ## Installation
-To use Procode in your project, you could do either of the following:
+To use ProCODE in your project, you could do either of the following:
 
 1) Copy-paste the below stylesheet links into your `head element` before all other stylesheets to load our CSS.
 
